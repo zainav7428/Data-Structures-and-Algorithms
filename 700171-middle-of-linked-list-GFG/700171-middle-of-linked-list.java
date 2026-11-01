@@ -14,7 +14,7 @@ class Solution {
         // code here
         
         Node slow = head;
-        Node fast = head.next;
+        Node fast = head;
         
         while(fast!=null && fast.next!=null){
             slow=slow.next;
